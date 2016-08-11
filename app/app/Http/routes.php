@@ -13,3 +13,4 @@
 
 Route::get('/', 'HolaMundoController@holaMundo');
 Route::get('/inicio', 'HolaMundoController@home');
+Route::get('/inicio/pagina1', 'HolaMundoController@pagina1');

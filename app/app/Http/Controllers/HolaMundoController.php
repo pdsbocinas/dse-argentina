@@ -14,6 +14,11 @@
 	    {
 	    	return $this->renderizar('Home.twig');
 	    }
+
+	    public function pagina1()
+	    {
+	    	return $this->renderizar('Home/component-home.twig');
+	    }
 	}
 	
 
